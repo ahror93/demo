@@ -1,3 +1,4 @@
+
 *{
     margin: 0;
     padding: 0;
@@ -328,4 +329,88 @@ border-radius: 10px;
 
 .section3_marketplace{
     padding-bottom: 160px;
+}
+
+
+
+
+
+@media( max-width: 575px){
+    .list_item {
+        padding-left: 20px;
+    }
+    .NFTs {
+        font-weight: 600;
+        font-size: 26px;
+        text-align: center;
+        color: #FFFFFF;
+        padding-top: 100px;
+    }
+    .Own {
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 24px;
+        color: #FFFFFF;
+        padding-bottom: 20px;
+    }
+    .Latest {
+        width: 136px;
+        height: 49px;
+        /* left: 602px; */
+        /* top: 384px; */
+        background: linear-gradient(90deg, #5D00FA 0%, #D70BCA 100%);
+        border-radius: 26px;
+        color: #FFFFFF;
+    }
+    .sectiontext {
+        padding-top: 20px;
+        padding-bottom: 10px;
+        font-weight: 600;
+        font-size: 26px;
+        line-height: 43px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+    .list_item a {
+        font-family: 'SF Pro Text';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 10px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        text-decoration: none;
+    }
+    .position {
+        position: relative;
+        padding-bottom: 18px;
+        margin-top: 10px;
+    }
+    .form-select {
+        margin: 0;
+        width: 150px;
+        height: 30px;
+        border: 0.5px solid #FFFFFF;
+        border-radius: 30px;
+        background: transparent;
+        color: #FFFFFF;
+        margin-top: -px;
+    }
+    
+    .form-select {
+        display: block;
+        width: 100%;
+        padding: 0.375rem 2.25rem 0.375rem 0.75rem;
+        -moz-padding-start: calc(0.75rem - 3px);
+        font-size: 13px;
+        font-weight: 400;
+        line-height: 1.5;
+        color: #212529;
+        background-color: #fff;
+        background-image: url(data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3e%3cpath fill='none' stroke='%23343a40' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='m2 5 6 6 6-6'/%3e%3c/svg%3e);
+    
+    }
+
+
+
+
 }
